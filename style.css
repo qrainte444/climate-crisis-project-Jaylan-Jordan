@@ -93,3 +93,27 @@ body {
     line-height: 1.8;
     max-width: 650px;
 }
+
+
+/* overview part */
+
+.overview {
+    display: flex;
+    gap: 50px;
+    padding: 80px 30px;
+}
+
+.overview-title {
+    flex: 1;
+}
+
+.overview-text {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.overview-title h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
