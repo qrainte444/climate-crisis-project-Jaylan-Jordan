@@ -249,3 +249,44 @@ body {
     font-size: 36px;
     margin-top: 10px;
 }
+
+
+/* footer design */
+
+.footer {
+    background-color: #111111;
+    border-top: 1px solid #383838;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.footer p:first-child {
+    color: #e86a33;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* navbar effects */
+
+.nav-list button:hover {
+    color: #e86a33;
+}
+
+.nav-list button:active {
+    color: #ffad79;
+}
+
+.nav-list button:focus-visible {
+    outline: 2px solid #e86a33;
+    outline-offset: 4px;
+}
