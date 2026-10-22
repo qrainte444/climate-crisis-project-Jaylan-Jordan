@@ -16,6 +16,50 @@ body {
 }
 
 
+/* impact part */
+
+.impact {
+    background-color: #171717;
+    padding: 80px 30px;
+}
+
+.impact-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.impact-title h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.impact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.impact-item {
+    background-color: #282828;
+    padding: 25px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.impact-item h3 {
+    color: #e86a33;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.impact-item p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
 /* facts */
 
 .facts {
@@ -54,6 +98,50 @@ body {
 }
 
 .fact-card p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* safety */
+
+.safety {
+    background-color: #202020;
+    padding: 80px 30px;
+}
+
+.safety-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.safety-title h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.safety-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.safety-item {
+    background-color: #303030;
+    padding: 25px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.safety-item h3 {
+    color: #e86a33;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.safety-item p {
     color: #cccccc;
     font-size: 15px;
     line-height: 1.6;
