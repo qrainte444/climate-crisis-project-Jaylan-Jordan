@@ -16,6 +16,50 @@ body {
 }
 
 
+/* facts */
+
+.facts {
+    background-color: #202020;
+    padding: 80px 30px;
+}
+
+.facts-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.facts-title h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.fact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fact-card {
+    background-color: #303030;
+    padding: 25px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.fact-card h3 {
+    color: #e86a33;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.fact-card p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
 /* navbar */
 
 .header {
