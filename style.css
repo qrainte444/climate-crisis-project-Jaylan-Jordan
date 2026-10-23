@@ -374,3 +374,61 @@ body {
 }
 
 
+/* phone screen  */
+
+@media (max-width: 600px) {
+
+    .nav, .overview, .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-list a {
+    font-size: 12px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .overview {
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    .facts, .impact, .safety {
+        padding: 50px 20px;
+    }
+
+    .facts-title h2,
+    .impact-title h2,
+    .safety-title h2 {
+        font-size: 28px;
+    }
+
+    .fact-card,
+    .impact-item,
+    .safety-item {
+        width: 100%;
+    }
+
+    .footer {
+        gap: 10px;
+    }
+
+}
