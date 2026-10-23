@@ -243,6 +243,12 @@ body {
     max-width: 650px;
 }
 
+/* smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* overview part */
 
