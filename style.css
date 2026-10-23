@@ -16,47 +16,121 @@ body {
 }
 
 
-/* impact part */
+/* navbar */
 
-.impact {
+.header {
     background-color: #171717;
+    border-bottom: 1px solid #383838;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logo {
+    color: #e86a33;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list button {
+    background: none;
+    border: none;
+    color: #f5f1ea;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+/* navbar effects */
+
+.nav-list button:hover {
+    color: #e86a33;
+}
+
+.nav-list button:active {
+    color: #ffad79;
+}
+
+.nav-list button:focus-visible {
+    outline: 2px solid #e86a33;
+    outline-offset: 4px;
+}
+
+
+/* hero section */
+
+.hero {
+    padding: 100px 30px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("wildfire.gif");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    max-width: 900px;
+}
+
+.small-title {
+    color: #e86a33;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.hero-info {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+
+/* overview part */
+
+.overview {
+    display: flex;
+    gap: 50px;
     padding: 80px 30px;
 }
 
-.impact-title {
-    text-align: center;
-    margin-bottom: 40px;
+.overview-title {
+    flex: 1;
 }
 
-.impact-title h2 {
+.overview-text {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.overview-title h2 {
     font-size: 36px;
     margin-top: 10px;
-}
-
-.impact-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.impact-item {
-    background-color: #282828;
-    padding: 25px;
-    border-radius: 8px;
-    width: 45%;
-}
-
-.impact-item h3 {
-    color: #e86a33;
-    font-size: 20px;
-    margin-top: 0;
-}
-
-.impact-item p {
-    color: #cccccc;
-    font-size: 15px;
-    line-height: 1.6;
 }
 
 
@@ -98,6 +172,50 @@ body {
 }
 
 .fact-card p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* impact part */
+
+.impact {
+    background-color: #171717;
+    padding: 80px 30px;
+}
+
+.impact-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.impact-title h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.impact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.impact-item {
+    background-color: #282828;
+    padding: 25px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.impact-item h3 {
+    color: #e86a33;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.impact-item p {
     color: #cccccc;
     font-size: 15px;
     line-height: 1.6;
@@ -148,139 +266,12 @@ body {
 }
 
 
-/* navbar */
-
-.header {
-    background-color: #171717;
-    border-bottom: 1px solid #383838;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-}
-
-.logo {
-    color: #e86a33;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav-list {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* navbar links */
-
-.nav-list a {
-    color: #f5f1ea;
-    text-decoration: none;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-/* hover effects */
-
-.nav-list a:hover {
-    color: #e86a33;
-}
-
-.nav-list a:active {
-    color: #ffad79;
-}
-
-.nav-list a:focus-visible {
-    outline: 2px solid #e86a33;
-    outline-offset: 4px;
-}
-
-
-
-/* hero section */
-
-.hero {
-    padding: 100px 30px;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url("wildfire.gif");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-
-.hero-text {
-    max-width: 900px;
-}
-
-.small-title {
-    color: #e86a33;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.hero h1 {
-    font-size: 60px;
-    margin: 15px 0;
-}
-
-.hero-info {
-    font-size: 18px;
-    line-height: 1.8;
-    max-width: 650px;
-}
-
-/* smooth scrolling */
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-/* overview part */
-
-.overview {
-    display: flex;
-    gap: 50px;
-    padding: 80px 30px;
-}
-
-.overview-title {
-    flex: 1;
-}
-
-.overview-text {
-    flex: 1;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.overview-title h2 {
-    font-size: 36px;
-    margin-top: 10px;
-}
-
-
-/* footer design */
+/* footer */
 
 .footer {
     background-color: #111111;
     border-top: 1px solid #383838;
     padding: 30px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -297,6 +288,7 @@ html {
     font-weight: bold;
     font-size: 16px;
 }
+
 
 /* fact card effects */
 
@@ -321,7 +313,7 @@ html {
 }
 
 
-/* more effects on heading */
+/* heading effects */
 
 .facts-title h2::before {
     content: "";
@@ -341,7 +333,8 @@ html {
     margin: 20px auto 0;
 }
 
-/* impact and safety hover effects */
+
+/* impact and safety effects */
 
 .impact-item:hover {
     background-color: #383838;
@@ -351,7 +344,8 @@ html {
     background-color: #404040;
 }
 
-/* phone screen  */
+
+/* phone screen */
 
 @media (max-width: 600px) {
 
@@ -371,8 +365,8 @@ html {
         gap: 10px;
     }
 
-    .nav-list a {
-    font-size: 12px;
+    .nav-list button {
+        font-size: 12px;
     }
 
     .hero {
@@ -407,10 +401,10 @@ html {
     .footer {
         gap: 10px;
     }
-
 }
 
-/* sources (WORKING ON THIS) */
+
+/* sources section */
 
 .sources {
     background-color: #171717;
@@ -440,4 +434,11 @@ html {
 .sources a:hover {
     color: #e86a33;
     text-decoration: underline;
+}
+
+
+/* smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
 }
