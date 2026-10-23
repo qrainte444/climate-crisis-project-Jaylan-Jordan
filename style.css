@@ -290,3 +290,58 @@ body {
     outline: 2px solid #e86a33;
     outline-offset: 4px;
 }
+
+
+/* ffact card effects */
+
+.fact-card:hover {
+    background-color: #383838;
+}
+
+.fact-card:first-child {
+    border-left: 4px solid #e86a33;
+}
+
+.fact-card:last-child {
+    border-left: 4px solid #e86a33;
+}
+
+.fact-card:nth-child(2) {
+    border-left: 4px solid #b84a25;
+}
+
+.fact-card:not(:first-child) h3 {
+    font-weight: bold;
+}
+
+
+/* more effects on heading */
+
+.facts-title h2::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e86a33;
+    margin: 0 auto 20px;
+}
+
+.impact-title h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e86a33;
+    margin: 20px auto 0;
+}
+
+/* impact and safety hover effects */
+
+.impact-item:hover {
+    background-color: #383838;
+}
+
+.safety-item:hover {
+    background-color: #404040;
+}
+
