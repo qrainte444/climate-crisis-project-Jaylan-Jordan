@@ -403,3 +403,35 @@ body {
     }
 
 }
+
+/* sources (WORKING ON THIS) */
+
+.sources {
+    background-color: #171717;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.sources h2 {
+    color: #e86a33;
+    font-size: 28px;
+}
+
+.sources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sources li {
+    margin: 10px 0;
+}
+
+.sources a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.sources a:hover {
+    color: #e86a33;
+    text-decoration: underline;
+}
