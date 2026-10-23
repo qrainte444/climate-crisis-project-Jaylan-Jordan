@@ -292,26 +292,7 @@ body {
     font-size: 16px;
 }
 
-
-/* navbar effects */
-
-
-.nav-list a:hover {
-    color: #e86a33;
-}
-
-.nav-list a:active {
-    color: #ffad79;
-}
-
-.nav-list a:focus-visible {
-    outline: 2px solid #e86a33;
-    outline-offset: 4px;
-}
-
-
-
-/* ffact card effects */
+/* fact card effects */
 
 .fact-card:hover {
     background-color: #383838;
@@ -363,16 +344,6 @@ body {
 .safety-item:hover {
     background-color: #404040;
 }
-
-/* navbar color */
-
-.nav-list a {
-    color: #f5f1ea;
-    text-decoration: none;
-    font-size: 14px;
-    cursor: pointer;
-}
-
 
 /* phone screen  */
 
