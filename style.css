@@ -179,14 +179,31 @@ body {
     padding: 0;
 }
 
-.nav-list button {
-    background: none;
-    border: none;
+
+/* navbar links */
+
+.nav-list a {
     color: #f5f1ea;
-    font-family: inherit;
+    text-decoration: none;
     font-size: 14px;
     cursor: pointer;
 }
+
+/* hover effects */
+
+.nav-list a:hover {
+    color: #e86a33;
+}
+
+.nav-list a:active {
+    color: #ffad79;
+}
+
+.nav-list a:focus-visible {
+    outline: 2px solid #e86a33;
+    outline-offset: 4px;
+}
+
 
 
 /* hero section */
@@ -278,18 +295,20 @@ body {
 
 /* navbar effects */
 
-.nav-list button:hover {
+
+.nav-list a:hover {
     color: #e86a33;
 }
 
-.nav-list button:active {
+.nav-list a:active {
     color: #ffad79;
 }
 
-.nav-list button:focus-visible {
+.nav-list a:focus-visible {
     outline: 2px solid #e86a33;
     outline-offset: 4px;
 }
+
 
 
 /* ffact card effects */
@@ -345,58 +364,13 @@ body {
     background-color: #404040;
 }
 
+/* navbar color */
 
-/* phone screen  */
-
-@media (max-width: 600px) {
-
-    .nav, .overview, .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav {
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .nav-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .hero {
-        padding: 60px 20px;
-    }
-
-    .hero h1 {
-        font-size: 36px;
-    }
-
-    .overview {
-        gap: 20px;
-        padding: 50px 20px;
-    }
-
-    .facts, .impact, .safety {
-        padding: 50px 20px;
-    }
-
-    .facts-title h2,
-    .impact-title h2,
-    .safety-title h2 {
-        font-size: 28px;
-    }
-
-    .fact-card,
-    .impact-item,
-    .safety-item {
-        width: 100%;
-    }
-
-    .footer {
-        gap: 10px;
-    }
-
+.nav-list a {
+    color: #f5f1ea;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
 }
+
+
